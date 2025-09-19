@@ -1,0 +1,5 @@
+# Guitar store! <span style="color:#6b21a8;font-family:ui-monospace,SFMono-Regular,'Liberation Mono','Courier New',monospace;font-size:1.75rem;line-height:1.2;">Vue 3 + TypeScript + Vite</span>
+
+Este proyecto es un reimplementación del *Módulo 3* del curso [Vue.js 3 - La Guía Completa - Composition Pinia MEVN 10 Apps](https://www.udemy.com/course/vuejs-la-guia-completa-composition-pinia-mevn-creando-proyectos-reales/) de [Juan Pablo De La Torre Valdez](https://www.udemy.com/user/juanpablodelatorrevaldez/).
+
+EL objetivo de este repositorio es practicar Vue 3, TypeScript y Vite. En este módulo, implementamos una aplicación sencilla para una tienda de guitarras denominada genéricamente *"Guitar Shop"*. Todo el derecho de los `Assets` usados en este proyecto pertenecen a su autor. Sin embargo, la reimplementación de los componentes y módulos en `TypeScript` es original, de mi autoría, basada en el código original del autor, y puede presentar refactorizaciones. Tiene licencia MIT, así que siéntete libre de usar este proyecto como base para tus propios proyectos *(incluso si son de caracter académico)*, **siempre y cuando SEA REIMPLEMENTADO usando otros `Assets`** 🙂.
