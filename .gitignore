@@ -7,6 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+material/
 node_modules/
 dist/
 dist-ssr/
@@ -27,6 +28,7 @@ dist-ssr/
 *.mkv
 *.mp3
 *.wav
+*.svg
 
 # Lock files
 yarn.lock
