@@ -28,6 +28,7 @@ dist-ssr/
 *.mkv
 *.mp3
 *.wav
+*.svg
 
 # Lock files
 yarn.lock
