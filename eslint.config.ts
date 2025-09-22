@@ -6,7 +6,7 @@ import vueParser from "vue-eslint-parser";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
-  // Configuración base para archivos JavaScript/TypeScript
+  // Base configuration for TypeScript files
   {
     ignores: [
       "node_modules/**",
@@ -31,10 +31,10 @@ export default defineConfig([
     },
   },
 
-  // Configuraciones recomendadas de TypeScript
+  // Recommended TypeScript configurations
   ...tseslint.configs.recommended,
 
-  // Configuración específica para archivos Vue
+  // Specific configuration for Vue files
   ...pluginVue.configs["flat/essential"],
   {
     files: ["**/*.vue"],
