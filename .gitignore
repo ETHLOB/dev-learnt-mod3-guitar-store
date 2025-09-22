@@ -7,11 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Build and assets directories
 material/
 node_modules/
 dist/
 dist-ssr/
 *.local
+
+# Husky files
+.husky/_
 
 # Environment files
 .env
