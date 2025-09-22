@@ -1,6 +1,5 @@
 import globals from "globals";
 import tseslint from "typescript-eslint";
-import prettierPlugin from "eslint-plugin-prettier";
 import prettierConfig from "eslint-config-prettier";
 import pluginVue from "eslint-plugin-vue";
 import vueParser from "vue-eslint-parser";
@@ -22,9 +21,6 @@ export default defineConfig([
     languageOptions: {
       globals: globals.browser,
     },
-    plugins: {
-      prettier: prettierPlugin,
-    },
     rules: {
       ...prettierConfig.rules,
       "@typescript-eslint/no-unused-vars": [
@@ -32,7 +28,6 @@ export default defineConfig([
         { argsIgnorePattern: "^_" },
       ],
       "no-console": "warn",
-      "prettier/prettier": "error",
     },
   },
 
@@ -51,9 +46,6 @@ export default defineConfig([
         sourceType: "module",
       },
     },
-    plugins: {
-      prettier: prettierPlugin,
-    },
     rules: {
       ...prettierConfig.rules,
       "vue/multi-word-component-names": [
@@ -65,7 +57,6 @@ export default defineConfig([
         { argsIgnorePattern: "^_" },
       ],
       "no-console": "warn",
-      "prettier/prettier": "error",
     },
   },
 ]);
